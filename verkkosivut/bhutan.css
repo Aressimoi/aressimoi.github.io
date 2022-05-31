@@ -1,0 +1,104 @@
+
+
+
+.flex-container {
+
+  display: flex;
+  
+  }
+  .flex-container >div {
+  background-color: rgb(250, 200, 39);
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  width: 100px;
+  text-align: center;
+
+
+
+
+  display: flex;
+  flex-wrap: wrap;
+flex: 1 1 50%;
+min-width: 300px;
+
+height: 500px; 
+  }
+  
+  
+  body {background-color: rgb(18, 20, 19);}
+  h1   {color: rgb(250, 201, 39);}
+  p , li , h2 , th , a  {color: whitesmoke;}
+  
+  p , li , h2 , th , a  {font-family: Arial, Helvetica, sans-serif;}
+  h1 {font-family:Lucida Handwriting, cursive }
+  
+
+
+
+  
+ /* div {
+    list-style-type: none; 
+  
+    overflow: hidden;
+    background-color: rgb(255, 155, 0);
+  }
+  
+  .flex-container > div {
+    float: left;
+  }*/
+  
+  
+  div a {
+    
+    display: block;
+  
+  color: rgb(255, 0, 0) ;
+  text-align: center;
+  padding: 2px 4px;
+  text-decoration: none;
+}
+
+  div a:hover {
+    background-color: rgb(255, 155, 0) ;
+  }
+
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(250, 201, 39);
+  }
+  
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(255, 155, 0) ;
+  }
+
+   /*#aloitus {
+    display: flex;
+    flex-wrap: wrap;
+  flex: 1 1 50%;
+  min-width: 300px;
+  
+  height: 500px; 
+  
+  
+
+}*/

@@ -1,0 +1,194 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: menu;}
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+.item6 {grid-area: nav; }
+.item7 {grid-area: pal; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+  'nav nav nav nav nav nav'
+    'menu main main main main right'
+    'menu pal pal pal pal right'
+    'footer footer footer footer footer footer ';
+    
+  
+    
+}
+
+.item1 , .item2 , .item3 , .item4 , .item6 , .item7 {
+  background-color: rgb(255, 255, 255);
+text-emphasis-color: rgb(0 , 0 ,0) ;
+  
+}
+  
+ p , h1 , h2 , h3   {
+color: rgb(0 , 0 ,0)
+}
+
+p {font-family: "Trebuchet MS", Helvetica, sans-serif;}
+body { min-height: 100%; 
+}
+
+
+.item3 {
+  
+  padding: 8px;
+
+}
+
+
+.item5 {
+  
+  background-color: #a31313;
+  font-size: small;
+  text-align: left;
+  padding: 10px;
+
+  
+  /*background-image: url('photo/joulufooterpieni.jpg');*/
+}
+
+
+
+.item6 {
+  background-color: #ffffff;
+  background-image: url('photo/rainbow.png');
+}
+
+
+img {
+   
+  background-color: #a31313; 
+  background-repeat: no-repeat;
+  padding: 10px
+}
+ 
+
+
+/**/
+
+
+
+
+
+.lappikuva-image {
+  background-image: url("photo/lappiwide.jpg" );
+  background-color: #cccccc;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.kuvateksti {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+}
+
+
+.item7{
+
+  
+  padding: 20px;
+  
+}
+
+
+input[type="text" ]{  line-height: 40px; }
+  
+  .flex-container {
+
+    display: flex;
+    
+    }
+  /*  .flex-container >div {
+    background-color: rgb(250, 200, 39);
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    width: 100px;
+    text-align: center;
+  
+  
+  
+  
+    display: flex;
+    flex-wrap: wrap;
+  flex: 1 1 50%;
+  min-width: 300px;
+  
+  height: 500px; 
+    }
+*/
+
+
+
+
+
+
+
+
+
+
+ 
+@media screen and (max-width: 960px){
+    body {
+      display: flex;
+      grid-template-areas:
+      'header header header header header header'
+      'nav nav nav nav nav nav'
+        ' main main main main '
+        ' pal pal pal pal '
+        menu menu right right
+        'footer footer footer footer footer footer ';
+      grid-gap: 10px;
+      background-color: peru;
+      padding: 10px;
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 680px){
+    body {
+      display: flex;
+      flex-direction: column;
+      background-color: #3196F3;
+      padding: 3px;
+      font-size: 10px;
+      }
+  
+    aside {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 320px){
+    body {
+      width: 320px;
+    }
+  }
+
+
+/*
+.myDiv {
+    font-size: 1.5em;
+    padding: 0.25em;
+    margin: 0.5em;
+}
+*/
+
+
+
+
+
+
