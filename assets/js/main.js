@@ -218,6 +218,13 @@
         layoutMode: 'fitRows'
       });
 
+      portfolioIsotope.arrange({
+        filter: ".filter-third"
+        // filter: this.getAttribute('data-filter')
+
+      });
+
+
       let portfolioFilters = select('#portfolio-flters li', true);
 
       on('click', '#portfolio-flters li', function(e) {
@@ -229,6 +236,7 @@
 
         portfolioIsotope.arrange({
           filter: this.getAttribute('data-filter')
+
         });
 
       }, true);
