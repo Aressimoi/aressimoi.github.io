@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fanikauppa/static/css/main.82d15de2.css",
+    "main.js": "/fanikauppa/static/js/main.c5e45ee6.js",
+    "static/js/787.78f34a16.chunk.js": "/fanikauppa/static/js/787.78f34a16.chunk.js",
+    "static/media/tshirt.png": "/fanikauppa/static/media/tshirt.62594047f928ebfbd3cf.png",
+    "static/media/pants.png": "/fanikauppa/static/media/pants.38f4937f242eb1ac68e6.png",
+    "static/media/backpack.png": "/fanikauppa/static/media/backpack.e958675ee426ce46ae1c.png",
+    "static/media/dress.png": "/fanikauppa/static/media/dress.57871b771b9776ffa2c7.png",
+    "static/media/hoodie.png": "/fanikauppa/static/media/hoodie.2e070adf0ca269c02a50.png",
+    "static/media/cart.svg": "/fanikauppa/static/media/cart.4f13b349f30fc39bf937282653f78b9d.svg",
+    "static/media/logo.svg": "/fanikauppa/static/media/logo.9c6505ece29afeb4d39d5362c293d032.svg",
+    "index.html": "/fanikauppa/index.html",
+    "main.82d15de2.css.map": "/fanikauppa/static/css/main.82d15de2.css.map",
+    "main.c5e45ee6.js.map": "/fanikauppa/static/js/main.c5e45ee6.js.map",
+    "787.78f34a16.chunk.js.map": "/fanikauppa/static/js/787.78f34a16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82d15de2.css",
+    "static/js/main.c5e45ee6.js"
+  ]
+}
